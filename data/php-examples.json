@@ -1,0 +1,143 @@
+{
+  "course": "PHP Examples",
+  "slug": "php-examples",
+  "contents": [
+    {
+      "module": 1,
+      "title": "PHP Basics",
+      "slug": "php-basics",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "PHP Syntax",
+          "slug": "php-syntax",
+          "text": "\n\nPHP Syntax\n\nPHP is a scripting language that uses a syntax similar to that of other programming languages. It is used to create dynamic web pages with HTML, CSS, and JavaScript.\n\nThe basic syntax of PHP consists of statements, variables, and functions. Statements are instructions for the server to execute. Variables are used to store data and are assigned using the equal sign (=). Functions are blocks of code that perform specific tasks and can be used multiple times.\n\nTo begin writing a script in PHP, you must open a file with the .php extension. All code written in the file must be enclosed in the opening and closing PHP tags: <?php and ?>. Within these tags, you can write any valid PHP code.\n\nFor example, the following code will print \"Hello World!\" to the screen:\n\n<?php\necho \"Hello World!\";\n?>\n\nWhen writing code, it is important to use proper indentation to make the code more readable. You should also use comments to explain what the code is doing. Comments are lines of text that are ignored by the server, but can help you and other developers understand the code.\n\nIn addition to the basic syntax, there are many other features and functions available in PHP. These can be used to create more complex web applications and are essential for writing efficient code."
+        },
+        {
+          "submodule": "B",
+          "title": "Variables and Data Types",
+          "slug": "variables-and-data-types",
+          "text": "\n\nVariables and Data Types\n\nIn this module, we will take a look at variables and data types in PHP. Variables are used to store data values, and data types determine how that data is interpreted by the programming language.\n\nIn PHP, variables start with a dollar sign ($) and are case sensitive. For example, $name and $Name are considered two different variables. Variables can store various types of data, including strings, numbers, booleans, and null values.\n\nA string is a sequence of characters, such as words or sentences. Strings are denoted by single or double quotes. For example, the following string would be denoted by double quotes:\n\n$string = \"This is a string\";\n\nA number is any numeric value, such as an integer or a float (a decimal number). Numbers do not need to be declared in quotes. For example, the following number would be stored as an integer:\n\n$number = 10;\n\nA boolean is a data type that can either be true or false. Booleans are often used in conditionals and control structures. For example, the following boolean would be stored as true:\n\n$boolean = true;\n\nA null value is a data type that has no value. It is denoted by the keyword NULL. For example, the following null value would be stored as NULL:\n\n$null = NULL;\n\nNow that you understand the different types of data that can be stored in variables, you can start to write basic PHP programs."
+        },
+        {
+          "submodule": "C",
+          "title": "Control Structures",
+          "slug": "control-structures",
+          "text": "\n\nControl Structures\n\nControl structures are used in the programming language of PHP to allow the programmer to control the flow of the program. Control structures allow the programmer to decide what code will be executed and when.\n\nThe most common control structures used in PHP are \"if\" statements, \"while\" loops, \"for\" loops and \"switch\" statements. \n\nAn \"if\" statement is used to check if a certain condition is true and if it is, then the code within the statement will be executed. \n\nA \"while\" loop will execute a block of code until the condition specified in the loop is false. \n\nA \"for\" loop is similar to a \"while\" loop but it allows the programmer to specify a certain number of times for the loop to execute. \n\nA \"switch\" statement is used to execute a block of code depending on the value of a certain variable. \n\nControl structures are an important part of programming in PHP and can be used to make more complex programs. It is important to understand how to properly use control structures in order to write effective code."
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "title": "PHP Functions",
+      "slug": "php-functions",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "PHP Built-in Functions",
+          "slug": "php-built-in-functions",
+          "text": "\n\nPHP Built-in Functions\n\nPHP is a powerful language with many built-in functions that can be used to simplify programming tasks. In this module, we will explore the most common PHP built-in functions and how they can be used in your code.\n\nThe most common built-in functions are those related to strings, arrays, and mathematics. For example, the strlen() function can be used to determine the length of a string, the array_merge() function can be used to merge two arrays together, and the round() function can be used to round a number to the nearest integer.\n\nIn addition to these basic functions, PHP also offers a wide range of more specialized functions. For example, the date() function can be used to format a date and time, the preg_match() function can be used to perform regular expression matching, and the mail() function can be used to send emails.\n\nFinally, PHP also provides a number of functions for working with files and directories. The file_get_contents() function can be used to read the contents of a file, the file_put_contents() function can be used to write to a file, and the scandir() function can be used to scan a directory for files and directories.\n\nBy learning how to use these built-in functions, you will be able to write more efficient and effective code. This module will provide you with an in-depth look at the most commonly used built-in functions in PHP."
+        },
+        {
+          "submodule": "B",
+          "title": "User-defined Functions",
+          "slug": "user-defined-functions",
+          "text": "\n\nUser-defined functions are an important part of the PHP language. A user-defined function is a block of code that can be called from anywhere in your program, allowing you to easily reuse code without having to write it multiple times. This makes your code easier to read, maintain, and debug.\n\nTo create a user-defined function, you must use the keyword \"function\", followed by the name of the function, and then the code that should be executed when the function is called. The code inside the function can be any valid PHP code, from simple assignments to complex operations.\n\nFor example, if you wanted to create a function that prints out a message, you would write the following code:\n\nfunction print_message($message) {\n    echo $message;\n}\n\nThe above function is named \"print_message\", and it takes one argument, the message to be printed. Once the function is defined, you can call it from anywhere in your code, like this:\n\nprint_message(\"Hello, world!\");\n\nThe above code will print out \"Hello, world!\" to the screen.\n\nUser-defined functions are a powerful tool in PHP that allow you to write reusable code and make your programs easier to read and maintain. In this module, we will look at how to create and use user-defined functions in your programs."
+        },
+        {
+          "submodule": "C",
+          "title": "Function Arguments and Return Values",
+          "slug": "function-arguments-and-return-values",
+          "text": "\n\nFunction Arguments and Return Values\n\nIn programming, a function is a set of instructions that performs a specific task. When writing a function, you can also specify what data it should receive (also known as arguments) and what data it should return (also known as a return value).\n\nArguments are pieces of data that are passed into a function in order to be used or processed by the function. They are specified in the parentheses after the function name. For example, the function below takes two arguments:\n\nfunction addNumbers($number1, $number2) \n{ \n  return $number1 + $number2; \n} \n\nIn this example, the function takes two arguments, $number1 and $number2, which are both numbers.\n\nA return value is the data that is outputted by a function. It is specified using the return keyword. In the example above, the function returns the sum of the two numbers.\n\nIt is important to note that a function can have multiple arguments and can return multiple values. It is also possible for a function to have no arguments and no return values.\n\nBy understanding how to use function arguments and return values, you can write more efficient and effective code in PHP."
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "title": "PHP Arrays",
+      "slug": "php-arrays",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "Array Syntax and Usage",
+          "slug": "array-syntax-and-usage",
+          "text": "\n\nArray Syntax and Usage\n\nArrays are an incredibly useful data structure in PHP. They allow you to store multiple values in a single variable, and can be used to store any type of data. Arrays are also dynamic, meaning you can add, remove, and modify elements without having to re-declare the array.\n\nThe syntax for declaring an array in PHP is simple. To declare a new array, use the array() function. Inside the parentheses, you can pass a comma-separated list of values to be stored in the array. Here is an example of an array of strings:\n\n$my_array = array('apple', 'orange', 'banana');\n\nYou can also use the array syntax to declare an empty array. This is done by passing no parameters to the array() function:\n\n$my_array = array();\n\nOnce you have an array declared, you can access individual elements of the array using the array syntax. To access an element at a specific index, use square brackets and the index of the element you want to access. For example, if you want to access the first element of the array above, you would use the following syntax:\n\n$my_array[0] // returns 'apple'\n\nYou can also use negative indices to access elements from the end of the array. For example, if you wanted to access the last element of the array above, you would use the following syntax:\n\n$my_array[-1] // returns 'banana'\n\nIn addition to accessing individual elements of an array, you can also use the array syntax to modify the array. To add an element to the end of an array, use the following syntax:\n\n$my_array[] = 'kiwi';\n\nThis will add the element 'kiwi' to the end of the array. You can also use the array syntax to remove elements from an array. To remove an element at a specific index, use the unset() function:\n\nunset($my_array[2]);\n\nThis will remove the element at index 2 (in this case, 'banana').\n\nArrays are an incredibly useful data structure in PHP, and are used in a variety of ways. By understanding the syntax and usage of arrays, you will be able to leverage them to build powerful applications."
+        },
+        {
+          "submodule": "B",
+          "title": "Array Functions",
+          "slug": "array-functions",
+          "text": "\n\nArray Functions\n\nArrays are an essential part of programming in PHP. They are used to store multiple values in a single variable, and are very useful for sorting, searching, and manipulating data. In order to make the most out of arrays, there are several helpful functions available to work with them.\n\nThe first array function is array_push(). This function adds one or more elements to the end of an array. For example, if you have an array of numbers and want to add a new number to the end, you can use array_push() to do so.\n\nThe next array function is array_pop(). This function removes the last element of an array. It is useful for removing elements from the end of an array, or for creating a new array by removing elements from an existing array.\n\nThe third array function is array_shift(). This function removes the first element of an array. It is useful for removing elements from the beginning of an array, or for creating a new array by removing elements from an existing array.\n\nThe fourth array function is array_unshift(). This function adds one or more elements to the beginning of an array. It is useful for adding elements to the beginning of an array, or for creating a new array by adding elements to an existing array.\n\nThe fifth array function is array_merge(). This function combines two or more arrays into a single array. It is useful for combining multiple arrays into one, or for creating a new array by combining elements from existing arrays.\n\nFinally, the sixth array function is array_reverse(). This function reverses the order of elements in an array. It is useful for reversing the order of elements in an array, or for creating a new array by reversing the order of elements in an existing array.\n\nBy understanding and utilizing these array functions, you can easily manipulate and work with arrays in your PHP programs."
+        },
+        {
+          "submodule": "C",
+          "title": "Multidimensional Arrays",
+          "slug": "multidimensional-arrays",
+          "text": "\n\nMultidimensional Arrays\n\nMultidimensional arrays are an extension of the regular, single-dimensional array. They allow you to store multiple pieces of related data in a single, organized structure.\n\nA multidimensional array is an array that contains other arrays. This means that each element in the array is itself an array. This makes it possible to store data in a hierarchical structure, allowing you to store multiple pieces of related data in a single array.\n\nFor example, you could create an array that contains information about a person. This array could contain their name, address, age, and any other relevant information. Each of these pieces of information would be stored in a separate array.\n\nTo access the data stored in a multidimensional array, you must use multiple levels of indexing. To access the data for a particular person, you would use the first level of indexing to select the person's array. Then, you would use the second level of indexing to select the data you want from the person's array.\n\nMultidimensional arrays are a powerful way to store and organize data. They can be used to store anything from simple lists to complex databases. By taking advantage of the hierarchical structure of multidimensional arrays, you can create efficient and organized data structures."
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "title": "PHP Web Development",
+      "slug": "php-web-development",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "HTML and CSS",
+          "slug": "html-and-css",
+          "text": "\n\nHTML and CSS are the cornerstones of website development, and are essential for any PHP web development project. HTML provides the structure and content for a website, while CSS is used to style and design the content. HTML and CSS are the fundamental building blocks of the web, and are used in all modern web development projects.\n\nHTML is a markup language that is used to structure a web page. It is made up of HTML elements, which are used to define the various parts of a web page, such as headings, paragraphs, links, images, and more. HTML also provides the ability to add attributes to elements, which can be used to adjust their styling, behavior, and more.\n\nCSS is a style sheet language that is used to style and design the content of a webpage. It is used to define the look and feel of a webpage, including colors, fonts, sizes, layouts, and more. CSS is used to make a web page look attractive and professional.\n\nUnderstanding HTML and CSS is essential for any PHP web development project. HTML and CSS are the foundation of web development, and are used in all modern web development projects. By understanding HTML and CSS, developers can create websites that look great and function properly."
+        },
+        {
+          "submodule": "B",
+          "title": "Forms and User Input",
+          "slug": "forms-and-user-input",
+          "text": "\n\nForms and User Input are an important part of web development with PHP. Forms allow users to interact with a web page and provide input to the website. This input can then be used to make decisions, store data, or perform other tasks.\n\nIn PHP, forms are created using HTML and CSS. The HTML elements are used to create the form and the CSS is used to style it. Once the form is created, PHP is used to capture the user's input. This is done using the $_POST or $_GET variables. These variables store the data that was entered into the form.\n\nOnce the data is captured, it can be used for a variety of tasks. For example, it can be stored in a database, used to generate dynamic content, or used to make decisions within the application.\n\nForms and user input are a powerful tool in web development with PHP. They allow users to interact with the website in a meaningful way and provide valuable data to the application. By understanding the basics of forms and user input, you can create powerful web applications with PHP."
+        },
+        {
+          "submodule": "C",
+          "title": "Sessions and Cookies",
+          "slug": "sessions-and-cookies",
+          "text": "\n\nSessions and Cookies are two important concepts in PHP web development. Sessions are a way to store information about a user on the server. They are typically used to store information that is required for a user to navigate through a website, such as a username or user preferences. Cookies are pieces of data that are stored on the user’s computer and are used to identify the user and store information about them.\n\nSessions are often used to store information that is required for a user to navigate through a website. This could include a username, user preferences, or any other information that needs to be remembered between page requests. Sessions are stored on the server, so the information is not visible to the user.\n\nCookies are pieces of data that are stored on the user’s computer. They are used to identify the user and store information about them. Cookies can be used to remember a user’s preferences or to track their activity on a website. They can also be used to store information that needs to be remembered between page requests, such as a username.\n\nSessions and cookies are essential tools for any website that needs to store information about a user or remember information between page requests. Understanding how to use them is an important part of PHP web development."
+        }
+      ]
+    },
+    {
+      "module": 5,
+      "title": "PHP Database Interaction",
+      "slug": "php-database-interaction",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "MySQL Basics",
+          "slug": "mysql-basics",
+          "text": "\n\nMySQL Basics\n\nMySQL is a popular open-source database management system. It is used to store, organize and retrieve data from a relational database. MySQL is used in many web applications, including WordPress, phpMyAdmin, and Joomla.\n\nIn order to use MySQL, you must first install the MySQL server software. Once installed, you can access the MySQL command line interface to create and manage databases. You can also use a graphical user interface (GUI) such as phpMyAdmin to manage your databases.\n\nWhen working with MySQL, you will need to understand the SQL language. SQL stands for Structured Query Language, and is used to create, modify and delete data in the database. SQL statements are written in a special syntax that is similar to the English language.\n\nOnce you have created a database and added data to it, you can use SQL to query the data. There are several types of queries that can be used, such as SELECT, INSERT, UPDATE, and DELETE. Each type of query is used for different purposes, such as retrieving data from the database or modifying data.\n\nIn addition to the SQL language, you will also need to understand the basics of database design. This includes understanding the different types of data that can be stored in a database, such as text, numbers, dates, and binary data. You will also need to understand how to create and manage tables, which are used to store data in the database.\n\nFinally, you will need to understand how to use PHP to interact with a MySQL database. PHP is a scripting language that is used to create dynamic web pages. It can be used to connect to a MySQL database, and execute queries and statements. With PHP, you can retrieve, insert, and update data in a MySQL database.\n\nThis module will provide you with an introduction to MySQL and SQL, and teach you how to use PHP to interact with a MySQL database. By the end of this module, you will have a basic understanding of MySQL, SQL, and PHP, and be able to use them to create dynamic web applications."
+        },
+        {
+          "submodule": "B",
+          "title": "Connecting to a Database",
+          "slug": "connecting-to-a-database",
+          "text": "\n\nConnecting to a Database\n\nConnecting to a database is a crucial step when working with PHP. In this module, we will take a look at how to connect to a database using PHP.\n\nBefore connecting to a database, you need to make sure that you have the correct database credentials (such as the database hostname, username, and password). Once you have these credentials, you can use the PHP function mysqli_connect() to connect to the database. This function requires the database credentials to be passed in as parameters.\n\nOnce the connection is established, you will need to use the appropriate SQL commands to interact with the database. For example, if you want to retrieve data from the database, you will need to use the SELECT command. Similarly, if you want to insert data into the database, you will need to use the INSERT command.\n\nIn this module, we will take a look at how to connect to a database using PHP and how to use SQL commands to interact with the database. By the end of this module, you should have a good understanding of how to connect to and interact with a database using PHP."
+        },
+        {
+          "submodule": "C",
+          "title": "Querying a Database",
+          "slug": "querying-a-database",
+          "text": "\n\nQuerying a Database\n\nWhen it comes to interacting with a database, one of the most important tasks is querying. Querying a database involves writing a query in the Structured Query Language (SQL) to retrieve data from the database. In this module, we will learn about the basics of querying a database with PHP.\n\nWe will start by discussing the basics of SQL and how to write a query. We will also discuss how to use PHP to execute the query and retrieve the data from the database. We will also explore how to use PHP to filter the data and manipulate it in various ways. Finally, we will discuss how to use PHP to update the data in the database.\n\nBy the end of this module, you will have a solid understanding of how to query a database with PHP and how to use it to interact with the data in the database. You will also gain valuable experience in writing SQL queries and manipulating the data with PHP."
+        },
+        {
+          "submodule": "D",
+          "title": "Give me examples in PHP",
+          "slug": "examples",
+          "text": "\n\nPHP Examples: Database Interaction\n\nAs a web developer, it’s important to understand how to interact with databases. PHP provides several ways to interact with databases, so let’s take a look at a few examples.\n\nConnecting to a database: The first step when working with databases is to connect to the database. This can be done with the mysqli_connect() function, which takes in the database host, username, password, and database name as parameters.\n\nCreating a database query: Once you’re connected to the database, you can create a database query using the mysqli_query() function. This function takes in a MySQL string, which is used to create the query.\n\nFetching data from a database: After a query is created, you can fetch the data from the database using the mysqli_fetch_array() function. This function takes in the result of the query and returns an array of the data.\n\nInserting data into a database: To insert data into a database, you can use the mysqli_query() function. This function takes in an INSERT query string and inserts the data into the database.\n\nUpdating data in a database: To update data in a database, you can use the mysqli_query() function. This function takes in an UPDATE query string and updates the data in the database.\n\nDeleting data from a database: To delete data from a database, you can use the mysqli_query() function. This function takes in a DELETE query string and deletes the data from the database.\n\nThese are just a few examples of how to interact with databases using PHP. With a little bit of practice, you’ll be able to quickly and easily create database queries and manipulate data with PHP."
+        },
+        {
+          "submodule": "E",
+          "title": "Give me code examples in PHP",
+          "slug": "examples-code",
+          "text": "\n\nThe following are a few examples of how to interact with a database using PHP:\n\n1. Create a connection to a MySQL database using the <code language=\"php\">mysqli_connect()</code> function:\n\n<code language=\"php\">\n$servername = \"localhost\";\n$username = \"username\";\n$password = \"password\";\n\n// Create connection\n$conn = mysqli_connect($servername, $username, $password);\n\n// Check connection\nif (!$conn) {\n    die(\"Connection failed: \" . mysqli_connect_error());\n}\necho \"Connected successfully\";\n</code>\n\n2. Execute an SQL query on a MySQL database using the <code language=\"php\">mysqli_query()</code> function:\n\n<code language=\"php\">\n$sql = \"SELECT id, firstname, lastname FROM MyGuests\";\n$result = mysqli_query($conn, $sql);\n\nif (mysqli_num_rows($result) > 0) {\n    // output data of each row\n    while($row = mysqli_fetch_assoc($result)) {\n        echo \"id: \" . $row[\"id\"]. \" - Name: \" . $row[\"firstname\"]. \" \" . $row[\"lastname\"]. \"<br>\";\n    }\n} else {\n    echo \"0 results\";\n}\n</code>\n\n3. Close the connection to a MySQL database using the <code language=\"php\">mysqli_close()</code> function:\n\n<code language=\"php\">\nmysqli_close($conn);\n</code>"
+        }
+      ]
+    }
+  ]
+}

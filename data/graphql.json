@@ -1,0 +1,142 @@
+{
+  "course": "GraphQL",
+  "slug": "graphql",
+  "contents": [
+    {
+      "module": 1,
+      "title": "Introduction to GraphQL",
+      "slug": "introduction-to-graphql",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "What is GraphQL?",
+          "slug": "what-is-graphql",
+          "text": "\n\nGraphQL is a query language used to access and manipulate data in an application. It was developed by Facebook in 2015 as a way to make APIs more efficient and easier to use. GraphQL provides a way to define the shape of the data that an API returns, and it allows developers to query the data in a more efficient and organized way than traditional REST APIs. GraphQL is often used to create powerful and efficient web applications, as well as mobile and desktop applications. With GraphQL, developers can create custom queries and get the exact data they need in a single request. Additionally, GraphQL is a powerful tool for managing data in a large-scale application, as it allows developers to easily modify data across multiple services."
+        },
+        {
+          "submodule": "B",
+          "title": "GraphQL Basics",
+          "slug": "graphql-basics",
+          "text": "\n\nGraphQL Basics\n\nGraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. It provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.\n\nAt its core, GraphQL provides a syntax that describes how to ask for data, and is generally used to load data from a server to a client. It was developed and open-sourced by Facebook in 2015, and is now used by many large companies and organizations, including Twitter, Airbnb, and The New York Times.\n\nGraphQL is often compared to REST (Representational State Transfer). However, while REST requires clients to make multiple requests to get the data they need, GraphQL allows clients to make a single request to get all the data they need. This reduces the amount of time it takes to get data, and makes it easier to get the exact data you need.\n\nGraphQL is also more flexible than REST. With REST, you are limited to the data that is provided by the API. With GraphQL, you can ask for exactly what you need and nothing more. This makes it easier to evolve APIs over time, as you can add new fields and types without breaking existing queries.\n\nGraphQL also makes it easier to develop powerful developer tools. For example, GraphiQL is an open source tool that allows you to write, view, and debug GraphQL queries.\n\nIn summary, GraphQL is a powerful query language for APIs that makes it easier to get the exact data you need, evolve APIs over time, and develop powerful developer tools. In this module, we will cover the basics of GraphQL and how to use it to build robust APIs."
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "title": "GraphQL Schema",
+      "slug": "graphql-schema",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "Building a GraphQL Schema",
+          "slug": "building-a-graphql-schema",
+          "text": "\n\nBuilding a GraphQL Schema is an essential part of learning the GraphQL language. GraphQL Schemas define the structure of data that can be queried from a GraphQL server. They also define the types of operations that can be performed on the data. In this module, we'll explore how to create a GraphQL Schema and use it to query and manipulate data.\n\nWe'll start by exploring the GraphQL Schema Definition Language (SDL) and how it can be used to define GraphQL Schemas. We'll then look at the different types of fields that can be defined in a GraphQL Schema and how they can be used to query and manipulate data. We'll also look at how to define relationships between different types of data in a GraphQL Schema. Finally, we'll explore how to add validation rules to a GraphQL Schema to ensure that only valid data is queried from the server.\n\nBy the end of this module, you'll have a good understanding of how to create GraphQL Schemas and use them to query and manipulate data. You'll also have the knowledge and skills required to create complex GraphQL Schemas with relationships and validation rules."
+        },
+        {
+          "submodule": "B",
+          "title": "GraphQL Types and Fields",
+          "slug": "graphql-types-and-fields",
+          "text": "\n\nGraphQL Types and Fields\n\nGraphQL is a powerful query language that enables developers to query data from an API. It is made up of two main components: types and fields. Types define the structure of the data that can be queried, while fields are the individual pieces of data that can be requested.\n\nTypes are the main building blocks of GraphQL. They define the structure of the data that can be requested, and provide a way to group related fields together. Types come in two forms: object types and scalar types. Object types are used to define the structure of a data object, while scalar types are used to define simple values like strings, numbers, and booleans.\n\nFields are the individual pieces of data that can be requested from an API. They are defined within the types, and can be of any type. Fields can also be nested, allowing for complex queries to be made.\n\nGraphQL provides a powerful way to query data from an API. By combining types and fields, it is possible to easily define and query the data that you need."
+        },
+        {
+          "submodule": "C",
+          "title": "GraphQL Queries and Mutations",
+          "slug": "graphql-queries-and-mutations",
+          "text": "\n\nGraphQL Queries and Mutations are the two primary operations that can be performed with GraphQL. Queries are used to retrieve data from the server, while Mutations are used to modify or create data on the server.\n\nQueries are used to retrieve data and can be used to request a single item or a list of items. They can also be used to filter or sort results. Mutations are used to modify or create data on the server. Mutations can create, update, or delete data.\n\nGraphQL queries and mutations are typically written in the GraphQL language and sent to the server using an HTTP request. The server then processes the query or mutation and returns a response. The response can be formatted in different ways depending on the needs of the client application.\n\nGraphQL queries and mutations are an essential part of the GraphQL schema. They provide the client with a way to interact with the server and retrieve or modify data. Understanding how to write queries and mutations is essential for developers who want to use GraphQL in their applications."
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "title": "GraphQL & APIs",
+      "slug": "graphql-and-apis",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "Integrating GraphQL with APIs",
+          "slug": "integrating-graphql-with-apis",
+          "text": "\n\nGraphQL is quickly becoming the go-to technology for integrating data from multiple sources. It provides a powerful way to query and manipulate data from different APIs and databases, making it an ideal choice for developers looking to build modern applications. In this module, we will explore how to integrate GraphQL with existing APIs and databases.\n\nWe will begin by discussing the advantages of GraphQL over traditional REST APIs and look at how to create a GraphQL schema. We will then move on to learn how to write GraphQL queries and mutations, and how to connect them to existing APIs. We will also look at the different ways in which GraphQL can be used to create powerful data visualizations. Finally, we will explore how to optimize GraphQL for performance and scalability.\n\nBy the end of this module, you will have a solid understanding of how to use GraphQL to integrate data from multiple sources. You will have the knowledge and skills necessary to build powerful applications that leverage the power of GraphQL."
+        },
+        {
+          "submodule": "B",
+          "title": "GraphQL Subscriptions",
+          "slug": "graphql-subscriptions",
+          "text": "\n\nGraphQL Subscriptions are a powerful tool used to enable real-time updates of data within a GraphQL API. It allows clients to receive updates from the server as soon as data changes occur. Subscriptions are a way for the server to push data to the client, rather than the client having to continuously poll the server for updates. \n\nUsing GraphQL Subscriptions, a client can subscribe to a particular event, such as a new post or comment in a social media application. The server will then push the data to the client as soon as it is available, without the need for the client to continuously poll the server. This enables real-time updates of data within a GraphQL API.\n\nSubscriptions are an important part of the GraphQL specification, and are a powerful tool for creating real-time applications. It allows clients to receive updates from the server as soon as data changes occur, enabling the development of applications that rely on real-time data updates."
+        },
+        {
+          "submodule": "C",
+          "title": "GraphQL Security",
+          "slug": "graphql-security",
+          "text": "\n\nGraphQL is a powerful tool for developing APIs, but security is still a major concern. GraphQL is a query language that enables clients to retrieve data from a server, and as such, it is vulnerable to security attacks. It is important to consider the security implications of using GraphQL and to take steps to protect your API and data.\n\nThe first step to secure a GraphQL API is to ensure that the API is only accessible to authenticated users. Authentication can be handled by the API server, or it can be handled by an external service such as Auth0 or Okta. It is also important to ensure that the authentication process is secure and that the data is encrypted when in transit.\n\nAnother important step is to ensure that GraphQL queries are properly validated before being executed. This can be done using a schema, which is the definition of the data that can be queried from the API. The schema should be used to validate incoming queries, and any queries that do not match the schema should be rejected.\n\nFinally, it is important to ensure that the data returned from GraphQL queries is secure. This can be done by using authorization rules to ensure that only authorized users can access sensitive data. Authorization rules can be defined in the schema, and they should be enforced by the API server.\n\nBy following these steps, you can ensure that your GraphQL API is secure and that your data is protected. Security is a major concern when developing APIs, and it is important to ensure that your GraphQL API is secure before deploying it."
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "title": "GraphQL Queries and Mutations",
+      "slug": "graphql-queries-and-mutations",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "Queries and Mutations",
+          "slug": "queries-and-mutations",
+          "text": "\n\nThe term \"queries\" and \"mutations\" are two of the most important concepts in GraphQL. Queries are used to retrieve data from a GraphQL server, while mutations are used to modify or create data on the server. \n\nQueries are used to fetch data from a GraphQL server. They are comprised of fields that are organized into a hierarchical structure. Each field can contain arguments and aliases, which allow you to further refine the data that is retrieved. \n\nMutations are used to modify or create data on the server. They are similar to queries, but instead of returning data, they modify the data on the server. Mutations are used to create, update, or delete data. \n\nIn this module, you will learn how to use queries and mutations to interact with a GraphQL server. You will learn how to write queries and mutations, as well as how to debug them. You will also learn how to use variables and directives to further refine your queries and mutations. \n\nBy the end of this module, you will be able to write queries and mutations to retrieve and modify data on a GraphQL server."
+        },
+        {
+          "submodule": "B",
+          "title": "Fields",
+          "slug": "fields",
+          "text": "\n\nFields\n\nFields are the core of GraphQL queries and represent the data you want to query from a GraphQL server. When making queries, you can specify the fields you want to be returned in the response. For example, if you wanted to query for a list of books and retrieve the titles, authors, and ISBN numbers, you would use fields to request that data from the GraphQL server. You can also use fields to specify the arguments to be passed to the server in order to filter or sort the data. By using fields, you can tailor your query to retrieve exactly the data you need."
+        },
+        {
+          "submodule": "C",
+          "title": "Arguments",
+          "slug": "arguments",
+          "text": "\n\nArguments are an important part of GraphQL queries and mutations. They are used to provide additional parameters to a query or mutation, allowing for more fine-grained control over the data that is returned. Arguments provide the ability to filter and sort data, as well as to specify which fields should be returned. Arguments are key-value pairs, with the key representing the argument name, and the value representing the argument value. Arguments can be used in both queries and mutations, and will often be required for more complex operations. Understanding how to use arguments is an important part of mastering GraphQL queries and mutations."
+        },
+        {
+          "submodule": "D",
+          "title": "Aliases",
+          "slug": "aliases",
+          "text": "\n\nAliases in GraphQL allow you to give different names to fields and variables that you use in your GraphQL queries and mutations. This can be incredibly useful for making queries and mutations easier to read and understand, as well as for reusing the same fields or variables with different names in different parts of your query. \n\nWhen using an alias, you can assign a different name to a field or variable that you are using in your query. This can be done by simply adding an alias after the field or variable in your query. For example, if you were querying for the name of a person, you could use the alias “personName” instead of the field name “name”. This can help to make your query more understandable and easier to read. \n\nAliases can also be used to reuse fields or variables in different parts of your query. This can be done by assigning the same alias to multiple fields or variables. For example, if you were querying for the age and location of a person, you could assign the alias “personInfo” to both the age and location fields. This would allow you to refer to both fields as “personInfo” in different parts of your query.\n\nIn summary, aliases in GraphQL are incredibly useful for making queries and mutations easier to read and understand, as well as for reusing the same fields or variables with different names in different parts of your query."
+        },
+        {
+          "submodule": "E",
+          "title": "Fragments",
+          "slug": "fragments",
+          "text": "\n\nFragments are an essential part of GraphQL queries, allowing developers to split their queries into smaller, reusable pieces. A fragment is a set of fields that can be reused in multiple queries, allowing developers to easily reuse parts of their queries without having to write them out again. Fragments are also useful for making sure that the data returned from a query is always consistent. By using fragments, developers can be sure that they are always getting the same set of fields, regardless of the query. In this module, you will learn how to create and use fragments in GraphQL queries and mutations."
+        },
+        {
+          "submodule": "F",
+          "title": "Operation Name",
+          "slug": "operation-name",
+          "text": "\n\nOperation Name\n\nIn GraphQL, an operation name is a way to identify and name a query or mutation. It is an identifier that is used to refer to the operation when sending a request to the GraphQL server. Operation names can be used to group related queries or mutations together, and to differentiate them from other operations. It is a useful way to keep track of the different operations that are being sent to the server. Additionally, an operation name can be used to provide additional information about the operation, such as its purpose, the data that is being requested, or the type of operation being performed."
+        },
+        {
+          "submodule": "G",
+          "title": "Variables",
+          "slug": "variables",
+          "text": "\n\nVariables\nVariables are an important part of GraphQL. They are used to pass values to the GraphQL query or mutation. Variables allow developers to send dynamic data to the server and can be used to avoid hard-coding values into the query or mutation. \n\nA variable can be declared in a query or mutation using the dollar ($) sign. For example, if you want to pass a user's name to a query, you could do so with a variable: \n\nquery getUserName($userName: String!) {\n  user(name: $userName) {\n    name\n  }\n}\n\nIn this example, the variable $userName is declared and then it is used in the query to filter the user by the value of the variable.\n\nVariables can also be used in mutations, allowing developers to send dynamic values to the server. For example, if you want to update a user's name, you could do so with a mutation and a variable:\n\nmutation updateUserName($userName: String!) {\n  updateUser(name: $userName) {\n    name\n  }\n}\n\nVariables are an important part of GraphQL and can be used to make your queries and mutations more dynamic and versatile."
+        },
+        {
+          "submodule": "H",
+          "title": "Directives",
+          "slug": "directives",
+          "text": "\n\nDirectives are special instructions that you can use in GraphQL queries and mutations to provide additional information to the GraphQL server. Directives allow you to do things like specify the fields you want to be returned, control the order of the data, and define conditions that must be met. This can help you create more complex and efficient queries, and make your code more maintainable. Directives can also be used to control how the data is returned, such as by selecting specific elements or filtering out certain values. By using directives, you can create more powerful and efficient GraphQL queries and mutations."
+        },
+        {
+          "submodule": "I",
+          "title": "Mutations",
+          "slug": "mutations",
+          "text": "\n\nMutations are an important concept in GraphQL that allow us to modify data on the server. Mutations are used to create, update, and delete data. They are similar to POST, PUT, and DELETE requests in REST APIs. In GraphQL, mutations are defined as fields on the root type of a schema. Mutations can take arguments and return values, just like queries.\n\nWhen making a mutation request, the client sends a query containing the mutation field and its arguments. The server will then execute the mutation and return the response.\n\nMutations are a powerful tool for making changes to data on the server. They can be used to add, update, or delete data from a database. They can also be used to perform custom operations, such as sending emails or processing payments.\n\nIn summary, mutations are an essential part of GraphQL that allow us to modify data on the server. They are similar to POST, PUT, and DELETE requests in REST APIs, but they are more powerful and flexible. Mutations can take arguments and return values, and they can be used to add, update, or delete data."
+        },
+        {
+          "submodule": "J",
+          "title": "Inline Fragments",
+          "slug": "inline-fragments",
+          "text": "\n\nInline Fragments are a useful GraphQL feature that allows us to return data from multiple types within a single query. Inline Fragments allow us to specify a type condition on a single field, and return fields from different types based on that condition. Inline Fragments are useful for when we need to return data from different types that share a common field, such as an id, but don't want to write separate queries for each type. Inline Fragments make it easier to query data from multiple types in a single query."
+        }
+      ]
+    }
+  ]
+}
