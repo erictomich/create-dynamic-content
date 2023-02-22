@@ -21,10 +21,10 @@ const ContentDataPage: NextPage = ({ slug , data } : any) => {
   return (
     <div>
       <S.Title>{data.course}</S.Title>
-      {data.contents.map((module, index) => (
+      {data.contents.map((module: any, index: any) => (
         <div key={index}>
           <S.ModuleTitle>Module {module.module}: {module.title}</S.ModuleTitle>
-          {module.submodules.map((submodule, index) => (
+          {module.submodules.map((submodule: any, index: any) => (
             <S.ModuleContent key={index}>
               <S.SubModuleTitle>{submodule.submodule}: {submodule.title}</S.SubModuleTitle>
               <S.SubModuleContent>{highlightCode(submodule.text)}</S.SubModuleContent>
@@ -50,7 +50,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   };
 
   
-  function CopyButton({ code }) {
+  function CopyButton({ code }: any) {
     const [copied, setCopied] = useState(false);
   
     function handleCopy() {
@@ -67,7 +67,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     );
   }
   
-  function CodeBlock({ language, code }) {
+  function CodeBlock({ language, code }: any) {
     const [copied, setCopied] = useState(false);
   
     function handleCopy() {
@@ -85,7 +85,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     );
   }
 
-  function highlightCode(text) {
+  function highlightCode(text: any) {
   const codeRegex = /<code\s+language="([^"]+)">([\s\S]*?)<\/code>/g;
 
   // Busca todas as ocorrências das tags <code> usando matchAll
@@ -99,7 +99,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   });
 
   // Cria os elementos SyntaxHighlighter a partir do array de objetos
-  return text.split(codeRegex).map((part, index) => {
+  return text.split(codeRegex).map((part: any, index: any) => {
     if (index % 2 === 1) {
       const i = Math.floor(index / 2);
       const codeBlock = codeBlocks[i];
