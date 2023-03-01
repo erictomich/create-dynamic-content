@@ -106,71 +106,71 @@ function salvarArquivo(content: any) {
 function generatePrompt(item: any) {
   const capitalizedItem =
     item[0].toUpperCase() + item.slice(1).toLowerCase();
-  return `Create a table of contents for a course called "${capitalizedItem}". Use in JSON: "course": "${capitalizedItem}". You can create as many sections as you need to go deeper into the subject. Use JSON format. Create up to 10 modules.
+  return `Crie uma estrutura de tópicos para um curso chamado "${capitalizedItem}". Use dentro da estrutura JSON: "curso": "${capitalizedItem}". Você pode criar quantas seções precisar para se aprofundar no assunto. Use o formato JSON. Crie até 10 módulos.
   
   { 
-    "course": "Economics",
-    "slug": "economics",
+    "course": "Economia",
+    "slug": "economia",
     "contents": [
         {
            "module": 1,
-           "title": "Introduction to Economics",
-           "slug": "introduction-to-economics",
+           "title": "Introdução à Economia",
+           "slug": "introducao-a-economia",
            "submodules": [
               {
                  "submodule": "A",
-                 "title": "What is Economics?",
-                 "slug": "what-is-economics"
+                 "title": "O que é Economia?",
+                 "slug": "o-que-e-economia"
               },
               {
                 "submodule": "B",
-                "title": "Basic Principles of Economics",
-                "slug": "basic-principles-of-economics"
+                "title": "Princípios básicos de economia",
+                "slug": "principios-basicos-de-economia"
              }
            ]
         },
         {
           "module": 2,
-          "title": "Microeconomics",
-          "slug": "microeconomics",
+          "title": "Microeconomia",
+          "slug": "microeconomia",
           "submodules": [
              {
                 "submodule": "A",
-                "title": "Supply and Demand ",
-                "slug": "supply-and-demand"
+                "title": "Oferta e demanda",
+                "slug": "oferta-e-demanda"
              },
              {
                "submodule": "B",
-               "title": "Market Structures",
-               "slug": "market-structures"
+               "title": "Estruturas de Mercado",
+               "slug": "estruturas-de-mercado"
              },
              {
                "submodule": "C",
-               "title": "Consumer Behavior",
-               "slug": "consumer-behavior"
+               "title": "Comportamento do consumidor",
+               "slug": "comportamento-do-consumidor"
              }
 
           ]
        },
        {
         "module": 3,
-        "title": "Macroeconomics",
-        "slug": "macroeconomics",
+        "title": "Macroeconomia",
+        "slug": "macroeconomia",
         "submodules": [
            {
               "submodule": "A",
-              "title": "Economic Growth",
-              "slug": "economic-growth "
+              "title": "Crescimento econômico",
+              "slug": "crescimento-economico"
            },
            {
              "submodule": "B",
-             "title": "Money and Banking",
-             "slug": "money-and-banking"
+             "title": "Dinheiro e banco",
+             "slug": "dinheiro-e-banco"
            },
            {
              "submodule": "C",
-             "title": "Inflation and Unemployment",
-             "slug": "inflation-and-unemployment"
+             "title": "Inflação e Desemprego",
+             "slug": "inflacao-e-desemprego"
            }
 
           ]
@@ -181,59 +181,59 @@ function generatePrompt(item: any) {
  
 
   { 
-    "course": "Health",
-    "slug": "health", 
+    "course": "Saúde",
+    "slug": "saude", 
       "contents": [ 
         { "module": 1,
-         "title": "Introduction to Health",
-         "slug": "introduction-to-health", 
+         "title": "Introdução à Saúde",
+         "slug": "introducao-a-saude", 
          "submodules": [ 
            { "submodule": "A", 
-            "title": "Health Basics",
-            "slug": "health-basics" 
+            "title": "Saúde básica",
+            "slug": "saude-basica" 
            }, 
            { "submodule": "B", 
-            "title": "Health and Wellness", 
-            "slug": "health-and-wellness" 
+            "title": "Saúde e bem estar", 
+            "slug": "saude-e-bem-estar" 
            }, { 
              "submodule": "C", 
-             "title": "Nutrition and Diet", 
-             "slug": "nutrition-and-diet" 
+             "title": "Nutrição e Dieta", 
+             "slug": "nutricao-e-dieta" 
            } 
          ] 
         }, 
         { "module": 2, 
-         "title": "Exercise and Fitness", 
-         "slug": "exercise-and-fitness", 
+         "title": "Exercício e condicionamento físico", 
+         "slug": "exercicio-e-condicionamento-fisico", 
          "submodules": [ 
            { "submodule": "A", 
-            "title": "Types of Exercise", 
-            "slug": "types-of-exercise" 
+            "title": "Tipos de exercício", 
+            "slug": "tipos-de-exercicio" 
            }, { "submodule": "B", 
-               "title": "Benefits of Exercise",
-               "slug": "benefits-of-exercise" 
+               "title": "Benefícios do exercício",
+               "slug": "beneficios-do-exercicio" 
               }, 
            { "submodule": "C", 
-            "title": "Exercise and Weight Loss", 
-            "slug": "exercise-and-weight-loss" 
+            "title": "Exercício e Perda de peso", 
+            "slug": "exercicio-e-perda-de-peso" 
            } 
          ] 
         }, 
         { "module": 3, 
-         "title": "Healthy Living", 
-         "slug": "healthy-living", 
+         "title": "Vida Saudável", 
+         "slug": "vida-saudavel", 
          "submodules": [ 
            { "submodule": "A", 
-            "title": "Stress Management", 
-            "slug": "stress-management" 
+            "title": "Gerenciamento de Estresse", 
+            "slug": "gerenciamento-de-estresse" 
            }, 
            { "submodule": "B", 
-            "title": "Sleep and Rest", 
-            "slug": "sleep-and-rest" 
+            "title": "Dormir e descansar", 
+            "slug": "dormir-e-descansar" 
            }, 
            { "submodule": "C", 
-            "title": "Substance Abuse", 
-            "slug": "substance-abuse" 
+            "title": "Abuso de substâncias", 
+            "slug": "abuso-de-substancias" 
            } 
          ] 
         } 
@@ -246,7 +246,7 @@ function generatePrompt(item: any) {
 async function generateText(title: String) {
 
   try {
-    const response = await fetch("http://localhost:3000/api/generatecontent", {
+    const response = await fetch("http://localhost:3000/api/generatecontent_pt", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

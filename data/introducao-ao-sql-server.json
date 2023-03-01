@@ -1,0 +1,161 @@
+{
+  "course": "Introdução ao sql server",
+  "slug": "introducao-ao-sql-server",
+  "contents": [
+    {
+      "module": 1,
+      "title": "Introdução ao SQL Server",
+      "slug": "introducao-ao-sql-server",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "Introdução ao SQL Server",
+          "slug": "introducao-ao-sql-server",
+          "text": "\n\nO SQL Server é um banco de dados relacional desenvolvido pela Microsoft. É usado para armazenar e recuperar informações. O SQL Server fornece uma variedade de recursos, como consultas, relatórios, análises e desenvolvimento de aplicativos.\n\nEsse curso de Introdução ao SQL Server aborda os fundamentos e os conceitos básicos do SQL Server, incluindo instalação, configuração, gerenciamento, desenvolvimento de consultas e aplicações, bem como a criação e manutenção de bancos de dados. Ao longo do curso, os alunos aprenderão sobre o processamento de dados, gerenciamento de armazenamento, segurança de dados, replicação e outros tópicos importantes.\n\nNo final deste curso, os alunos terão uma compreensão fundamental dos conceitos e recursos do SQL Server, bem como a capacidade de criar e manter bancos de dados e desenvolver consultas e aplicações. Os alunos também terão a oportunidade de aplicar esses conceitos para criar um banco de dados eficaz e seguro."
+        },
+        {
+          "submodule": "B",
+          "title": "Criando e Gerenciando Bancos de Dados",
+          "slug": "criando-e-gerenciando-bancos-de-dados",
+          "text": "\n\nO curso de Introdução ao SQL Server é ideal para quem deseja adquirir conhecimentos básicos sobre o banco de dados relacional mais popular do mundo. Neste módulo, você aprenderá como criar e gerenciar bancos de dados no SQL Server.\n\nComeçaremos aprendendo a criar um novo banco de dados no SQL Server. Você aprenderá como definir o nome, a localização e as configurações do banco de dados. Além disso, você aprenderá a usar o recurso de backup para garantir que os dados estejam sempre seguros.\n\nDepois de criar um banco de dados, você aprenderá a gerenciá-lo. Você verá como criar, alterar e excluir tabelas, índices e outros objetos no banco de dados. Além disso, você aprenderá a usar o SQL Server Management Studio (SSMS) para gerenciar o banco de dados e executar consultas.\n\nAo final deste módulo, você terá uma compreensão básica de como criar e gerenciar bancos de dados no SQL Server. Você estará pronto para começar a trabalhar com bancos de dados maiores e mais complexos, como o SQL Server Enterprise Edition."
+        },
+        {
+          "submodule": "C",
+          "title": "Trabalhando com Tabelas",
+          "slug": "trabalhando-com-tabelas",
+          "text": "\n\nO SQL Server é um sistema de gerenciamento de banco de dados relacional que permite a criação, manipulação e gerenciamento de dados. Uma das principais tarefas ao trabalhar com o SQL Server é a criação e manipulação de tabelas.\n\nAs tabelas são a estrutura básica do banco de dados relacional e servem para armazenar os dados. Cada tabela é dividida em linhas e colunas, onde cada linha representa um registro único e cada coluna representa um campo específico. As tabelas são usadas para organizar e armazenar os dados de forma eficiente e pode ser usada para acessar e manipular os dados de forma rápida.\n\nAo criar uma tabela, você deve especificar os tipos de dados que cada coluna deve armazenar, assim como quaisquer restrições que devem ser aplicadas aos dados armazenados. Além disso, você também pode criar índices para melhorar o desempenho do banco de dados.\n\nUma vez criadas as tabelas, você pode inserir, atualizar e excluir dados usando instruções SQL. Além disso, você também pode usar instruções SQL para consultar os dados armazenados, criar relatórios e executar outras operações de consulta.\n\nO SQL Server fornece diversas ferramentas e recursos para ajudá-lo a trabalhar com tabelas. Estes recursos incluem a criação de tabelas usando a interface gráfica do usuário, a criação de consultas usando a linguagem SQL e a criação de índices para melhorar o desempenho do banco de dados.\n\nTrabalhar com tabelas no SQL Server é uma tarefa importante para criar e manter um banco de dados relacional eficiente e estável. Com os recursos e ferramentas fornecidas pelo SQL Server, você pode criar e gerenciar tabelas, inserir, atualizar e excluir dados, criar índices e consultar os dados armazenados de forma eficiente."
+        },
+        {
+          "submodule": "D",
+          "title": "Criando e Manipulando Dados",
+          "slug": "criando-e-manipulando-dados",
+          "text": "\n\nO curso de Introdução ao SQL Server oferece um conhecimento de base sobre as principais ferramentas e recursos para criar e manipular dados. Aprenderemos os fundamentos para criar bancos de dados, tabelas, índices e outros objetos, além de como inserir, atualizar e excluir dados.\n\nAo longo do curso, você terá a oportunidade de aprender os recursos e ferramentas necessárias para criar e manipular dados. Começaremos com a criação de tabelas e índices, seguindo com a inserção de dados, atualização de registros e exclusão de dados.\n\nTambém aprenderemos sobre os comandos DDL (Data Definition Language) e DML (Data Manipulation Language), que são usados para criar e manipular dados. Além disso, abordaremos também os princípios de normalização de dados e os princípios de segurança.\n\nAo final do curso, você terá uma compreensão profunda sobre como criar e manipular dados usando o SQL Server. Você estará apto a criar e manipular dados de forma eficiente e segura, além de aplicar os princípios de normalização de dados e de segurança para garantir a integridade dos dados."
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "title": "Consultas Básicas",
+      "slug": "consultas-basicas",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "Estrutura de Consultas",
+          "slug": "estrutura-de-consultas",
+          "text": "\n\nO SQL Server é uma plataforma de banco de dados que permite a execução de consultas para extrair informações específicas. A estrutura de consultas é a base para a construção de todas as consultas, pois é o que define o que deve ser retornado ao usuário.\n\nUma estrutura de consulta básica consiste em selecionar os dados desejados, da(s) tabela(s) desejada(s), filtrando-os com condições específicas, e ordenando-os de acordo com a necessidade. Essa estrutura é formada por três partes principais: o SELECT, o FROM e o WHERE.\n\nO SELECT é responsável por definir quais colunas devem ser retornadas na consulta. O FROM é responsável por definir de qual tabela devem ser retornados os dados. O WHERE é responsável por definir quais linhas devem ser retornadas, usando-se condições. Além disso, é possível usar a cláusula ORDER BY para ordenar os resultados da consulta.\n\nA estrutura de consultas é uma parte essencial para o desenvolvimento de aplicações que usam o SQL Server. É importante que o desenvolvedor conheça os conceitos básicos e as sintaxes para construir as consultas corretamente. O curso \"Introdução ao SQL Server\" é uma ótima maneira de adquirir esses conhecimentos."
+        },
+        {
+          "submodule": "B",
+          "title": "Operadores de Comparação",
+          "slug": "operadores-de-comparacao",
+          "text": "\n\nO SQL Server é uma linguagem de programação que possibilita o acesso e manipulação de dados em bases de dados. Uma das principais operações que podemos realizar com o SQL Server é consultar informações contidas em uma base de dados. Para isso, utilizamos operadores de comparação, que nos permitem estabelecer critérios de seleção para as consultas. \n\nOs operadores de comparação são símbolos que relacionam duas expressões e retornam um valor booleano (verdadeiro ou falso). Esses símbolos nos permitem definir quais linhas da tabela devem ser selecionadas para a consulta. Os principais operadores de comparação são:\n\n- Igual ( = ): O operador igual é usado para verificar se uma expressão é igual a outra. \n\n- Maior que ( > ): O operador maior que é usado para verificar se uma expressão é maior que outra.\n\n- Menor que ( < ): O operador menor que é usado para verificar se uma expressão é menor que outra.\n\n- Maior ou igual que ( >= ): O operador maior ou igual que é usado para verificar se uma expressão é maior ou igual que outra.\n\n- Menor ou igual que ( <= ): O operador menor ou igual que é usado para verificar se uma expressão é menor ou igual que outra.\n\n- Diferente ( != ): O operador diferente é usado para verificar se uma expressão é diferente de outra.\n\n- LIKE: O operador LIKE permite usar um padrão para verificar se uma expressão corresponde ao padrão desejado.\n\nEsses são apenas alguns dos operadores de comparação disponíveis no SQL Server. Existem outros operadores para trabalhar com dados específicos, como datas, strings e números. Ao dominar os operadores de comparação, você poderá criar consultas mais complexas e obter os resultados desejados."
+        },
+        {
+          "submodule": "C",
+          "title": "Agrupamento de Dados",
+          "slug": "agrupamento-de-dados",
+          "text": "\n\nO agrupamento de dados é uma ferramenta importante para a manipulação de dados no SQL Server. O agrupamento de dados permite que você combine vários registros em um único resultado, tornando mais fácil a análise de dados. Por exemplo, quando se trabalha com grandes conjuntos de dados, é possível agrupar os dados por categorias específicas, como por país, estado, cidade ou outras características.\n\nO agrupamento de dados também pode ser usado para criar subconjuntos de dados, permitindo que você faça análises mais detalhadas. Por exemplo, você pode agrupar os dados por ano ou mês, o que permitirá que você analise os dados em intervalos menores.\n\nNo SQL Server, o agrupamento de dados é realizado usando a cláusula GROUP BY. Esta cláusula permite que você especifique quais colunas você deseja agrupar e, em seguida, aplicar funções de agregação, como COUNT, SUM, MAX, MIN, AVG, etc., para cada grupo.\n\nAlém disso, o SQL Server também oferece a funcionalidade de filtro com a cláusula HAVING, que permite que você aplique condições adicionais após a execução da cláusula GROUP BY. Isso permite que você filtre os resultados para obter apenas aqueles que atendem a certas condições.\n\nPortanto, o agrupamento de dados é uma ferramenta útil para a análise de dados no SQL Server, permitindo-lhe criar subconjuntos de dados, aplicar funções de agregação e filtrar os resultados para obter análises mais detalhadas."
+        },
+        {
+          "submodule": "D",
+          "title": "Funções Básicas do SQL Server",
+          "slug": "funcoes-basicas-do-sql-server",
+          "text": "\n\nO SQL Server é uma plataforma de banco de dados relacional amplamente utilizada em todo o mundo. É usado para armazenar e manipular grandes quantidades de dados, oferecendo suporte para aplicações de gerenciamento de informação.\n\nAo trabalhar com o SQL Server, é importante entender as principais funções que a plataforma oferece. O curso Introdução ao SQL Server aborda as funções básicas do SQL Server, que incluem:\n\n1. Criação de tabelas: O SQL Server permite criar tabelas para armazenar informações. Uma tabela é um conjunto de dados organizados em linhas e colunas.\n\n2. Consultas: O SQL Server permite a execução de consultas para recuperar dados das tabelas. As consultas podem ser usadas para filtrar, ordenar e manipular dados.\n\n3. Manipulação de dados: O SQL Server permite a manipulação de dados através de instruções SQL, que podem ser usadas para inserir, atualizar e excluir dados.\n\n4. Funções: O SQL Server possui uma série de funções pré-definidas que podem ser usadas para manipular dados, como funções de agregação, funções de data e hora, funções string e muito mais.\n\n5. Índices: O SQL Server permite a criação de índices para melhorar a performance das consultas. Os índices são usados para acelerar o processamento de consultas que envolvem grandes quantidades de dados.\n\nO curso Introdução ao SQL Server aborda cada uma destas funções básicas do SQL Server, explicando sua aplicação e como elas podem ser usadas para criar consultas eficientes. Ao concluir o curso, os alunos terão todas as ferramentas necessárias para trabalhar com o SQL Server."
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "title": "Consultas Avançadas",
+      "slug": "consultas-avancadas",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "Subconsultas",
+          "slug": "subconsultas",
+          "text": "\n\nSubconsultas são uma das principais ferramentas para quem trabalha com SQL Server, pois permitem que os usuários criem consultas complexas com resultados que não seriam possíveis de obter de outra forma. Elas permitem que os usuários criem consultas que acessam informações de duas ou mais tabelas relacionadas, e também que usem outras consultas como parte de um comando SELECT.\n\nSubconsultas são úteis para obter dados de tabelas relacionadas, encontrar informações específicas, fazer cálculos complexos e classificar dados. Elas também podem ser usadas para atualizar ou excluir informações, e para criar tabelas temporárias.\n\nPara criar uma subconsulta, você deve escrever uma consulta como se fosse uma instrução SELECT, mas colocá-la dentro de parênteses. Em seguida, você deve usar essa consulta como parte de outra instrução SELECT, INSERT, UPDATE ou DELETE. Por exemplo, você pode usar uma subconsulta para retornar todos os registros de uma tabela que não estão presentes em outra tabela.\n\nSubconsultas são uma parte importante de trabalhar com o SQL Server, e são fundamentais para criar consultas avançadas. Se você estiver procurando uma maneira de aprimorar suas consultas, estudar subconsultas é um ótimo lugar para começar."
+        },
+        {
+          "submodule": "B",
+          "title": "Transações",
+          "slug": "transacoes",
+          "text": "\n\nTransações são fundamentais para garantir a integridade dos dados no banco de dados. Elas permitem que várias operações sejam executadas como uma única unidade lógica, assegurando que todas as operações sejam concluídas com sucesso ou nenhuma seja executada. \n\nNo SQL Server, as transações são controladas usando a instrução Transact-SQL BEGIN TRANSACTION, COMMIT TRANSACTION e ROLLBACK TRANSACTION. A instrução BEGIN TRANSACTION inicia uma transação e marca o início de um grupo de instruções SQL, que serão executadas como uma única unidade lógica. O COMMIT TRANSACTION marca o final da transação, confirmando todas as operações realizadas desde que a transação foi iniciada. O ROLLBACK TRANSACTION desfaz todas as operações realizadas desde que a transação foi iniciada.\n\nAs transações são extremamente importantes para a integridade dos dados no banco de dados, pois garantem que as operações sejam executadas corretamente ou nenhuma seja executada. Elas também permitem que você faça alterações em várias tabelas ao mesmo tempo, garantindo que todas as alterações serão aplicadas ou nenhuma será aplicada. \n\nEsse curso de Introdução ao SQL Server aborda o uso de transações para garantir a integridade dos dados no banco de dados. Ao longo do curso, você aprenderá a usar as instruções BEGIN TRANSACTION, COMMIT TRANSACTION e ROLLBACK TRANSACTION para controlar as transações no banco de dados."
+        },
+        {
+          "submodule": "C",
+          "title": "União de Dados",
+          "slug": "uniao-de-dados",
+          "text": "\n\nUnião de Dados é uma das técnicas mais importantes para quem trabalha com o SQL Server. Esta técnica permite que dados de duas ou mais tabelas sejam combinados de forma a criar um único conjunto de dados. \n\nA união de dados é usada para selecionar dados relacionados entre tabelas, permitindo que os usuários obtenham resultados mais ricos. Por exemplo, a união de dados pode ser usada para selecionar dados de uma tabela de clientes e outra tabela de pedidos, para criar um conjunto de dados que contenha informações sobre os clientes e os pedidos que eles fizeram. \n\nO SQL Server oferece várias opções para unir dados de duas ou mais tabelas. O comando SELECT pode ser usado para unir dados de duas tabelas usando o operador UNION, enquanto o JOIN pode ser usado para unir dados de mais de duas tabelas. Além disso, o SQL Server também permite a criação de vistas que permitem a união de dados de várias tabelas. \n\nA união de dados é uma técnica extremamente útil para quem trabalha com o SQL Server e pode ser usada para criar resultados mais ricos e complexos. Ao seguir os passos corretos, é possível usar a união de dados para criar resultados que atendam às necessidades dos usuários."
+        },
+        {
+          "submodule": "D",
+          "title": "Cursores",
+          "slug": "cursores",
+          "text": "\n\nO curso Introdução ao SQL Server possui uma parte importante dedicada às consultas avançadas. Nesta seção, é possível aprender sobre uma técnica muito útil para manipular dados em grandes quantidades: os cursores.\n\nCursores são um recurso extremamente útil para realizar operações complexas em um banco de dados. Eles permitem navegar, modificar e recuperar linhas de uma tabela de forma controlada. Cursores podem ser usados ​​para percorrer todos os registros de uma tabela e realizar ações específicas sobre cada um deles.\n\nEm geral, os cursores são usados para processar linhas em lotes ou executar ações em todas as linhas de uma tabela. Por exemplo, um cursor pode ser usado para atualizar todos os registros de uma tabela com base em um critério específico. Além disso, os cursores também podem ser usados para realizar consultas de junção em grandes bases de dados.\n\nNo curso Introdução ao SQL Server, você aprenderá a usar cursores para executar operações de banco de dados avançadas. Você também aprenderá sobre a sintaxe, a estrutura e os principais conceitos necessários para usar cursores. Ao final do curso, você estará pronto para começar a usar cursores para manipular seus dados de forma eficaz."
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "title": "Gerenciamento de Segurança",
+      "slug": "gerenciamento-de-seguranca",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "Gerenciamento de Usuários",
+          "slug": "gerenciamento-de-usuarios",
+          "text": "\n\nO gerenciamento de usuários é uma das principais tarefas de segurança no SQL Server. Esta tarefa envolve a criação, modificação e exclusão de usuários, bem como o gerenciamento de seus direitos e privilégios. \n\nA criação de usuários é uma das primeiras tarefas que deve ser realizada no SQL Server. O usuário pode ser criado usando o Assistente de Segurança do SQL Server ou através do T-SQL. É importante ter em mente que os usuários devem ter um nome de usuário único e uma senha segura.\n\nApós a criação do usuário, é necessário conceder os direitos e privilégios apropriados. Os direitos e privilégios são definidos pelo administrador de segurança. Os direitos e privilégios podem incluir acesso a tabelas, execução de procedimentos armazenados ou a execução de trabalhos do SQL Server.\n\nAlém disso, é importante manter os usuários atualizados. Isso significa que, periodicamente, os usuários devem ser verificados para garantir que ainda tenham todos os direitos e privilégios necessários. Se os direitos e privilégios de um usuário não forem mais necessários, eles devem ser revogados para evitar o acesso não autorizado.\n\nO gerenciamento de usuários é uma parte importante do gerenciamento de segurança no SQL Server. A criação, modificação e exclusão de usuários, bem como a concessão e revogação de direitos e privilégios, devem ser feitas com cuidado para garantir a segurança dos dados."
+        },
+        {
+          "submodule": "B",
+          "title": "Gerenciamento de Permissões",
+          "slug": "gerenciamento-de-permissoes",
+          "text": "\n\nO gerenciamento de segurança no SQL Server é essencial para garantir a integridade, confidencialidade e disponibilidade dos dados. Dentro deste contexto, o gerenciamento de permissões se destaca como um dos principais fatores de segurança.\n\nO gerenciamento de permissões permite que o administrador de banco de dados controle quais usuários têm acesso a quais recursos e quais operações eles podem realizar. Ele também limita o que os usuários podem fazer com os dados, como excluir, alterar ou ler.\n\nO SQL Server oferece diversos níveis de controle de acesso, desde o nível de servidor até o nível de banco de dados. Os administradores de banco de dados podem usar esses níveis para permitir que usuários e grupos específicos acessem recursos específicos, como tabelas, armazenamento de dados, procedimentos armazenados e outros.\n\nÉ importante que os administradores de banco de dados definam e gerenciem as permissões com cuidado, pois elas afetam diretamente a segurança dos dados. É importante que as permissões sejam específicas para cada usuário e grupo, e não genéricas. Além disso, os administradores de banco de dados devem sempre garantir que os usuários não tenham mais permissões do que o necessário para cumprir suas tarefas.\n\nO gerenciamento de permissões é uma parte crítica do gerenciamento de segurança no SQL Server. Se bem executado, ele pode ajudar a garantir que os dados sejam acessados somente por usuários autorizados e que as operações permitidas sejam realizadas com segurança."
+        },
+        {
+          "submodule": "C",
+          "title": "Criptografia de Dados",
+          "slug": "criptografia-de-dados",
+          "text": "\n\nCriptografia de Dados é um dos principais componentes da segurança de um banco de dados. A criptografia é usada para proteger os dados armazenados, tornando-os ilegíveis para aqueles que não possuem as chaves de decodificação. O SQL Server oferece vários recursos de criptografia de dados, incluindo criptografia de coluna, criptografia de arquivo, criptografia de chave, criptografia de certificado, entre outros. \n\nA criptografia de coluna é usada para encriptar os dados em uma coluna específica. O SQL Server usa o algoritmo AES para criptografar os dados. A criptografia de arquivo é usada para criptografar um arquivo inteiro. O SQL Server usa o algoritmo RSA para criptografar o arquivo. \n\nA criptografia de chave é usada para proteger as chaves criptográficas. O SQL Server usa o algoritmo TripleDES para criptografar as chaves de acesso. A criptografia de certificado é usada para proteger os certificados digitais. O SQL Server usa o algoritmo SHA-256 para criptografar os certificados. \n\nA criptografia de dados é usada para garantir que os dados armazenados sejam seguros e protegidos. O SQL Server oferece várias maneiras de criptografar os dados, permitindo que os administradores de banco de dados usem os recursos de criptografia para proteger os dados armazenados."
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "title": "Objetos e recursos do SQL Server",
+      "slug": "objetos-e-recursos-do-sql-server",
+      "submodules": [
+        {
+          "submodule": "A",
+          "title": "O que são Views e como utilizá-las",
+          "slug": "views-e-como-utilizar",
+          "text": "\n\nAs Views são objetos do SQL Server que permitem acessar dados de uma tabela de forma simplificada, como se fosse uma tabela virtual. Elas fornecem uma maneira de personalizar o acesso aos dados de uma tabela, de forma que os usuários possam visualizar apenas as colunas e linhas que eles desejam.\n\nAs Views são criadas usando comandos SQL para selecionar dados de uma ou mais tabelas. Elas também podem incluir cláusulas WHERE, ORDER BY e GROUP BY para filtrar, classificar e agrupar os dados. Além disso, elas podem usar funções de agregação como SUM, COUNT e AVG para calcular resultados.\n\nUma vez criadas, as Views podem ser usadas para acessar dados da mesma forma que as tabelas. Por exemplo, elas podem ser usadas em consultas SELECT para recuperar dados ou em instruções INSERT, UPDATE e DELETE para modificar os dados.\n\nUsar Views permite que os usuários acessem os dados de forma simplificada, permitindo que eles vejam apenas as colunas e linhas que eles precisam. Além disso, elas fornecem uma camada de segurança, pois permitem que os usuários acessem apenas os dados necessários. Isso permite que os usuários acessem os dados de forma segura, sem ter que se preocupar com a segurança dos dados.\n\nPortanto, as Views são ferramentas úteis para acessar e manipular dados de uma forma mais segura e simplificada. Elas podem ser usadas para acessar dados de forma seletiva, filtrar e agrupar os dados e calcular resultados usando funções de agregação."
+        },
+        {
+          "submodule": "B",
+          "title": "O que são Procedures e como utilizá-las",
+          "slug": "procedures-e-como-utilizar",
+          "text": "\n\nO SQL Server é um sistema gerenciador de banco de dados relacional, que possui diversos objetos e recursos para facilitar a manipulação de dados. Uma dessas ferramentas são as Procedures, que são rotinas armazenadas no banco de dados.\n\nUma Procedure é composta por uma série de comandos SQL que são executados de forma sequencial. Ela é criada com o objetivo de realizar uma tarefa específica, como por exemplo, a criação de uma tabela, ou a execução de consultas complexas.\n\nAlgumas das principais vantagens de se utilizar Procedures são a reutilização de código, o aumento da performance e o aumento da segurança. Além disso, elas são úteis para criar lógicas de processamento mais complexas, já que elas podem receber parâmetros e retornar resultados.\n\nPara utilizar Procedures, é necessário criar uma rotina utilizando a linguagem T-SQL. Essa rotina deverá conter instruções de controle, como IF, WHILE e GOTO, além de instruções de manipulação de dados, como SELECT, INSERT, UPDATE e DELETE.\n\nApós a criação da Procedure, é necessário executá-la para que ela seja utilizada. Isso pode ser feito utilizando o comando EXEC ou chamando a Procedure diretamente em uma consulta.\n\nPor meio de Procedures, é possível automatizar tarefas repetitivas, o que facilita o trabalho do desenvolvedor e proporciona maior performance para o aplicativo. Portanto, é importante conhecer e entender como utilizar essa ferramenta para aproveitar ao máximo as vantagens que ela oferece."
+        },
+        {
+          "submodule": "C",
+          "title": "O que são Functions e como utilizar",
+          "slug": "functions-e-como-utilizar",
+          "text": "\n\nFunctions são objetos no SQL Server que permitem a reutilização de código e a execução de operações complexas. Elas podem ser usadas em instruções SELECT, INSERT, UPDATE e DELETE. \n\nFunctions são criadas com o comando CREATE FUNCTION, que recebe como parâmetros o nome e a lógica de execução da função. Essa lógica pode ser escrita em T-SQL ou em outros linguagens, como C# ou Visual Basic. \n\nUma vez criada, a Function pode ser usada como se fosse uma palavra-chave do SQL Server. Por exemplo, suponha que você tenha criado uma Function chamada CalcularTotal. Você pode usá-la em uma instrução SELECT como se fosse uma coluna: \n\nSELECT nome, CalcularTotal(preco) FROM Produtos\n\nEssa instrução irá selecionar o nome e o resultado da chamada da Function CalcularTotal para cada linha da tabela Produtos. \n\nFunctions são úteis para a criação de lógicas de negócio complexas e para a reutilização de código. Elas são muito usadas para criar aplicações com banco de dados, pois permitem a execução de operações complexas de forma eficiente."
+        },
+        {
+          "submodule": "D",
+          "title": "O que são Triggers e como utilizar",
+          "slug": "triggers-e-como-utilizar",
+          "text": "\n\nTriggers são procedimentos armazenados que são executados automaticamente quando um evento específico ocorre no banco de dados. Estes eventos podem ser INSERT, UPDATE ou DELETE em uma tabela ou view.\n\nTriggers são usados para executar uma ação específica quando um evento ocorre. Por exemplo, você pode criar um trigger para atualizar automaticamente um campo em uma tabela quando um novo registro é inserido. Ou você pode criar um trigger para enviar um e-mail para um usuário quando um determinado registro é atualizado.\n\nPara criar um trigger, você precisa usar a instrução CREATE TRIGGER. A sintaxe é a seguinte:\n\nCREATE TRIGGER nome_do_trigger\nON nome_da_tabela\n[AFTER | INSTEAD OF]\n[INSERT | UPDATE | DELETE]\nAS\n[instruções_sql]\n\nO nome do trigger deve ser único na base de dados. Você também deve especificar o nome da tabela ou view em que o trigger será criado. Depois de especificar o nome da tabela, você deve definir se o trigger será executado depois ou em vez de um evento INSERT, UPDATE ou DELETE.\n\nFinalmente, você precisa escrever as instruções SQL que serão executadas quando o evento ocorrer. Estas instruções podem incluir atualizações de tabelas, envio de e-mails ou qualquer outra ação necessária.\n\nUma vez criado o trigger, ele será automaticamente executado quando o evento especificado ocorrer. Você também pode usar a instrução DROP TRIGGER para excluir um trigger."
+        },
+        {
+          "submodule": "E",
+          "title": "O que são campos calculados e como utilizar",
+          "slug": "campos-calculados-e-como-utilizar",
+          "text": "\n\nOs campos calculados são recursos presentes no SQL Server que permitem a criação de campos em tabelas ou visualizações com base em expressões. Eles são úteis para agregar informações de outras tabelas, realizar cálculos complexos e criar consultas dinâmicas.\n\nPara criar um campo calculado, você precisa definir a expressão que será usada para calcular o valor da coluna. Esta expressão pode ser qualquer tipo de operação matemática, função de agregação de dados ou consulta de outra tabela. Além disso, é possível usar variáveis para armazenar valores temporários durante o processamento de uma consulta.\n\nApós definir a expressão, é necessário informar o tipo de dado do campo calculado. O tipo de dado pode ser numérico, lógico ou textual, dependendo da expressão usada.\n\nOs campos calculados são úteis para realizar cálculos complexos e consultas dinâmicas, além de agregar informações de outras tabelas. Portanto, eles são ferramentas fundamentais para quem trabalha com o SQL Server."
+        }
+      ]
+    }
+  ]
+}

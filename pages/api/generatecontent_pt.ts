@@ -56,5 +56,5 @@ export default async function(req: any, res: any) {
 
 function generatePrompt(item: String, course: String, moduleTitle:String) {
 
-  return `Considering the context of a course with the title "${course}". In Module "${moduleTitle}". Create a text with title "${item}". Se houver necessidade de inserir exemplos de código, inclua os códigos dentro da tag <code language="[insert language here]"></code>. Exemplo: <code language="php">$name = \"Teste\"; echo $name;</code> OU <code language="javacript">let testing = \'testando\'</code> OU <code language="sql">select * from tabela</code>`;
+  return `Considerando o contexto do curso com o título "${course}". Considerando que está dentro do módulo "${moduleTitle}". Crie um texto com o título "${item}". `;
 }

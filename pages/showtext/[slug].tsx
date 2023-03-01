@@ -1,11 +1,13 @@
+import React from 'react'
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import * as S from './styles'
-
+import { ImprimeTexto }  from '../../components/RenderText'
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import { jsx, javascript } from "react-syntax-highlighter/dist/cjs/languages/prism";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import MyHtmlComponent from '../../components/MyHtmlComponent';
 
 import type {
     NextPage,
@@ -27,7 +29,7 @@ const ContentDataPage: NextPage = ({ slug , data } : any) => {
           {module.submodules.map((submodule: any, index: any) => (
             <S.ModuleContent key={index}>
               <S.SubModuleTitle>{submodule.submodule}: {submodule.title}</S.SubModuleTitle>
-              <S.SubModuleContent>{highlightCode(submodule.text)}</S.SubModuleContent>
+              <S.SubModuleContent><ImprimeTexto textoInteiro={highlightCode(submodule.text)} /></S.SubModuleContent>
             </S.ModuleContent>
           ))}
         </div>
@@ -108,13 +110,11 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         return <CodeBlock key={index} language={language} code={code} />;
       }
     }
-    return part;
+
+    
+    return <MyHtmlComponent htmlString={part} />;
   });
 }
-  
-  
-  
-  
   
 
   export default ContentDataPage; 
